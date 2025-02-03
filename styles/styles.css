@@ -1,0 +1,26 @@
+body {
+    max-width: 1126px;
+    margin: auto;
+}
+
+.nav-container {
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    height: 78px;
+    left: 0px;
+    top: 20px;
+}
+
+.logo {
+    width: 185.34px;
+    height: 31.97px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    
+}
