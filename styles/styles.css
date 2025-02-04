@@ -61,6 +61,11 @@ h1 {
     border-color: #BCD0E5;
 }
 
+.btn-sign-in:hover {
+    background-color: #f2e4cf;
+    cursor: pointer;
+}
+
 .btn-sign-up {
     height: 46px;
     width: 102px;
@@ -68,6 +73,11 @@ h1 {
     color: #FFFFFF;
     border-radius: 6px;
     border: none;
+}
+
+.btn-sign-up:hover {
+    background-color: #f48415;
+    cursor: pointer;
 }
 
 li {
@@ -115,6 +125,11 @@ button {
     line-height: 24px;
 }
 
+.btn-get-started:hover {
+    background-color: #f48415;
+    cursor: pointer;
+}
+
 .btn-watch-video {
     width: 175px;
     height: 53px;
@@ -126,6 +141,16 @@ button {
     line-height: 24px;
     text-decoration-line: underline;
 
+}
+
+.btn-watch-video:hover {
+    color: #f48415;
+    cursor: pointer;
+}
+
+.triangle {
+    position: relative;
+    transform: translate(-4px, 3px);
 }
 
 h2 {
@@ -192,6 +217,11 @@ h5 {
     margin-top: 20px;
 }
 
+.btn-now:hover {
+    background-color: #f48415;
+    cursor: pointer;
+}
+
 .sec-two, 
 .sec-four {
     display: flex;
@@ -219,4 +249,59 @@ h5 {
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+footer {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    /*align-items: center;*/
+    width: 1121px;
+    height: 308px;
+    max-width: 100%;
+}
+
+.btn-register {
+    display: block;
+    width: 131px;
+    height: 39px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-register:hover {
+    background-color: #f48415;
+    cursor: pointer;
+}
+
+input {
+    width: 325px;
+    height: 48px;
+    border-radius: 6px;
+    border: 1px solid #BCD0E5;
+
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+a {
+    color: #544837;
+    text-decoration: none;
+}
+
+hr {
+width: 1121px;
+height: 1px;
+background: rgba(188, 208, 229, 0.496913);
 }
