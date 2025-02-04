@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     font-family: "Poppins", serif;
     max-width: 1000px;
     margin: auto;
@@ -7,6 +8,7 @@ body {
 
 p {
     color: #544837;
+    font-size: 16px;
 }
 
 h1 {
@@ -86,10 +88,13 @@ button {
 .hero-info {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
     justify-content: center;
     width: 80%;
     gap: 15px;
+}
+
+#hero-text {
+    font-size: 18px;
 }
 
 .btns-two {
@@ -122,5 +127,50 @@ button {
 
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    max-width: 500px;
+    text-align: center;
+    color: #2F281E;
+}
 
+h3 {
+    color: #2F281E;
+    font-size: 22px;
+    font-weight: semi-bold;
+}
+.sec-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin-top: 20px;
 
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 100%;
+}
+
+.card {
+    width: 240px;
+}
+
+.btn-now {
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-top: 20px;
+}
