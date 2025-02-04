@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Poppins", serif;
-    max-width: 1000px;
+    max-width: 1121px;
     margin: auto;
     gap: 30px;
 }
@@ -10,6 +10,7 @@ body {
 p {
     color: #544837;
     font-size: 16px;
+    line-height: 26px;
 }
 
 h1 {
@@ -154,8 +155,6 @@ h5 {
     font-size: 16px;
     line-height: 26px;
     color: #2F281E;
-
-
 }
 
 .sec-one {
@@ -163,7 +162,7 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1121px;
     margin-top: 20px;
     margin-bottom: 40px;
 
@@ -174,7 +173,7 @@ h5 {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    max-width: 100%;
+    /*max-width: 100%;*/
 }
 
 .card {
@@ -193,9 +192,31 @@ h5 {
     margin-top: 20px;
 }
 
-.sec-two {
+.sec-two, 
+.sec-four {
     display: flex;
     margin-top: 20px;
-    max-width: 1000px;
+    margin-bottom: 40px;
+    max-width: 1121px;
     gap: 20px;
+}
+
+.sec-three {
+    display: flex;
+    gap: 40px;
+    max-width: 1121px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+
+.check-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
